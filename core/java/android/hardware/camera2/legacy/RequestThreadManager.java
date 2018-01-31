@@ -240,8 +240,8 @@ public class RequestThreadManager {
                                     CameraMetadataNative.NATIVE_JPEG_FORMAT);
                         }
                     }
-                } catch (LegacyExceptionUtils.BufferQueueAbandonedException e) {
-                    Log.w(TAG, "Surface abandoned, dropping frame. ", e);
+             } catch (LegacyExceptionUtils.BufferQueueAbandonedException e) {
+                  Log.w(TAG, "Surface abandoned, dropping frame. ", e);
                 }
             }
 
